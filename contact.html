@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak | Saul Pria Baik & Partners</title>
+  <link rel="stylesheet" href="saul-pria-baik.css">
+</head>
+<body>
+  <header>
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span>Saul</span> Pria Baik</a>
+      <button class="mobile-menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Buka menu navigasi">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-menu" id="site-navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">Tentang</a>
+        <a href="services.html">Layanan</a>
+        <a href="cases.html">Kasus</a>
+        <a class="is-active" href="contact.html">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container page-main">
+    <section class="page-hero">
+      <div>
+        <div class="section-title">Kontak</div>
+        <h1>Mulai konsultasi</h1>
+        <p>Kirim detail singkat perkara Anda atau hubungi langsung melalui WhatsApp untuk respons awal yang cepat dan jelas.</p>
+      </div>
+      <div class="page-hero-panel" data-label="CALL"></div>
+    </section>
+
+    <section class="page-band contact-grid">
+      <form class="contact-form scroll-reveal" data-consultation-form>
+        <div class="field-group">
+          <label for="name">Nama</label>
+          <input id="name" name="name" type="text" placeholder="Nama lengkap">
+        </div>
+        <div class="field-group">
+          <label for="phone">Nomor WhatsApp</label>
+          <input id="phone" name="phone" type="tel" placeholder="+62 812 3456 789">
+        </div>
+        <div class="field-group">
+          <label for="topic">Topik</label>
+          <select id="topic" name="topic">
+            <option>Konsultasi Perdata</option>
+            <option>Pembelaan Pidana</option>
+            <option>Bisnis & Kontrak</option>
+            <option>Lainnya</option>
+          </select>
+        </div>
+        <div class="field-group">
+          <label for="message">Ringkasan Perkara</label>
+          <textarea id="message" name="message" placeholder="Tulis ringkasan singkat kebutuhan hukum Anda"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Kirim Permintaan</button>
+        <p class="form-note" data-form-note>Data Anda hanya digunakan untuk kebutuhan konsultasi awal.</p>
+      </form>
+
+      <aside class="contact-card scroll-reveal">
+        <h4>Hubungi Langsung</h4>
+        <ul class="contact-list">
+          <li><span>Telp</span> <a href="tel:+628123456789">+62 812 3456 789</a></li>
+          <li><span>WA</span> <a href="https://wa.me/628123456789" target="_blank">+62 812 3456 789</a></li>
+          <li><span>Email</span> <a href="mailto:saulbaik@contoh.com">saulbaik@contoh.com</a></li>
+          <li><span>Alamat</span> Jl. Keadilan No. 88, Jakarta Selatan</li>
+        </ul>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>&copy; 2026 Saul Pria Baik &amp; Partners. Firma hukum premium dengan strategi berani &amp; profesional.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
